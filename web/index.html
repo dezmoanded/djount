@@ -5,19 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#000000">
     <title>djount.com</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="stars.js" defer></script>
+    <link rel="stylesheet" href="style.css?v=3">
+    <script src="stars.js?v=3" defer></script>
   </head>
   <body>
     <div id="starfield" aria-hidden="true"></div>
     <main class="site">
-      <img class="header-art" src="images/djount_header.png" alt="Djount, hand-drawn in colorful space lettering">
+      <div class="logo-stage">
+        <img class="header-art" src="images/djount_header.png" alt="Djount, hand-drawn in colorful space lettering">
+        <span class="logo-glimmer glimmer-one" aria-hidden="true"></span>
+        <span class="logo-glimmer glimmer-two" aria-hidden="true"></span>
+      </div>
+      <button id="motion-toggle" class="motion-toggle" type="button" aria-pressed="true">Pause animation</button>
       <div class="photo-frame">
         <img src="images/paul_and_xiao_hong.png" alt="Paul and Xiao Hong smiling together in the snow">
       </div>
       <p class="credit">Art by Jessica Lorenz</p>
       <img class="footer-art" src="images/djount_footer.png" alt="The world is a magical place, in colorful lettering">
-      <p class="magic-hint">✦ tap anywhere for a little magic ✦</p>
+      <p class="magic-hint">✦ tap anywhere for shooting sparkles ✦</p>
     </main>
     <div id="sparkle-layer" aria-hidden="true"></div>
   </body>
