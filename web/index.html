@@ -1,23 +1,24 @@
-<html>
+<!doctype html>
+<html lang="en">
   <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#020108">
     <title>djount.com</title>
     <link rel="stylesheet" href="style.css">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1.0">
+    <script src="stars.js" defer></script>
   </head>
-  <body style="background-color: black">
-    <div class="c">
-      <div>
-        <img src="images/djount_header.png" style="max-height: 200px;">
+  <body>
+    <div id="starfield" aria-hidden="true"></div>
+    <main class="site">
+      <img class="header-art" src="images/djount_header.png" alt="Djount, hand-drawn in colorful space lettering">
+      <div class="photo-frame">
+        <img src="images/paul_and_xiao_hong.png" alt="Paul and Xiao Hong smiling together in the snow">
       </div>
-      <div class="c">
-        <div class="r">
-          <img src="images/paul_and_xiao_hong.png">
-        </div>
-      </div>
-      <div>
-        <p style="color: white; text-align: center">Art by Jessica Lorenz</p>
-        <img src="images/djount_footer.png" style="max-height: 200px;">
-      </div>
-    </div>
+      <p class="credit">Art by Jessica Lorenz</p>
+      <img class="footer-art" src="images/djount_footer.png" alt="The world is a magical place, in colorful lettering">
+      <p class="magic-hint">✦ tap anywhere for a little magic ✦</p>
+    </main>
+    <div id="sparkle-layer" aria-hidden="true"></div>
   </body>
 </html>
